@@ -1,0 +1,21 @@
+Java
+
+Veio com a implementação com software para eletrodomésticos.
+
+Automação
+
+Porque Java?
+
+Paradigma mais forte atualmente
+
+Linguagem que atende totalmente os requisitos de POO
+
+Windows NT
+
+Portabilidade = Multiplataforma
+
+Verificar sobre problema de memória
+
+AM/FM
+
+Arquitetura client/server e server/client
