@@ -1,0 +1,78 @@
+O que é um automóvel?
+
+Partes de um automóvel
+
+Acelerador
+
++ acelerar
+- nivelAceleracao
+- estadoAceleracao
+
++ desacelerar
+- nivelAceleracao
+- estadoAceleracao
+
+Embreagem
+
++ acionar
+- nivelEmbreagem
+- estadoEmbreagem
+
++ desacionar
+- nivelEmbreagem
+- estadoEmbragem
+
+Motor
+
++ ligar
+- estadoMotor
+- temperaturaMotor
+
++ desligar
+- estadoMotor
+- temperaturaMotor
+
+Marcha
+ 
++ trocar
+- marchaAtual
+- marchaAlvo
+
+Velocidade
+
++ aumentar
+- velocidadeAtual
+- nivelAceleracao
+
++ diminuir
+- velocidadeAtual
+- nivelAceleracao
+
+VelocidadeMáxima
+
+- rotacaoMotor
+
+Roda
+
++ girar
+- rotacaoAtual
+- rotacaoAlvo
+
+Freio
+
++ acionar
+- rotacaoAtual
+- rotacaoAlvo
+- nivelFreio
+- velocidadeAtual 
+
++ desacionar
+- rotacaoAtual
+- rotacaoAlvo
+- nivelFreio
+- velocidadeAtual
+
+Direção
+
+- rotacao
+
