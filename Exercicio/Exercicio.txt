@@ -1,6 +1,12 @@
-O que � um autom�vel?
+O que é um automóvel?
 
-Partes de um autom�vel
+Partes de um automóvel
+
+Carro
+
++ Ligar
+- Embreagem.acionar()
+- Ignicao.ativar()
 
 Acelerador
 
@@ -22,16 +28,44 @@ Embreagem
 - nivelEmbreagem
 - estadoEmbragem
 
+Ignicao
+
++ ativar
+- estadoEmbreagem
+- nivelEmbreagem
+- Motor.ligar()
+
++ desativar
+
 Motor
 
 + ligar
 - estadoMotor
 - temperaturaMotor
+- rotacaoMotor
+- estadoBateria
 
 + desligar
 - estadoMotor
 - temperaturaMotor
+- rotacaoMotor
+- estadoBateria
 
+Farol
+
++ acender
+- estadoBateria
+- luzFreio
+- luzRe
+
++ desligar
+- luzFreio
+- luzRe
+
+Painel
+- luzTemperatura
+- luzCombustivel
+- luzBateria
 Marcha
  
 + trocar
@@ -48,7 +82,7 @@ Velocidade
 - velocidadeAtual
 - nivelAceleracao
 
-VelocidadeM�xima
+VelocidadeMáxima
 
 - rotacaoMotor
 
@@ -72,7 +106,15 @@ Freio
 - nivelFreio
 - velocidadeAtual
 
-Dire��o
+Direção
 
 - rotacao
 
+Para ligar o carro precisamos acionar a embreagem e ativar a ignição.
+Ignição não ativa se o nível da embreagem for menor que 100 e estado da embreagem igual a false
+Ignição ativa se o nível da embreagem for igual a 100 e o estado da embreagem igual a true.
+Com a ignição ativada o motor liga.
+
+Motor liga se a temperatura é igual a 50 e o estado da bateria igual a true
+Se motor liga estadoMotor é igual a true e rotacaoMotor é igual a 100
+Carro 
