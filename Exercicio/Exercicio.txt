@@ -117,4 +117,4 @@ Com a ignição ativada o motor liga.
 
 Motor liga se a temperatura é igual a 50 e o estado da bateria igual a true
 Se motor liga estadoMotor é igual a true e rotacaoMotor é igual a 100
-Carro 
+Se marchaAtual é igual a 
