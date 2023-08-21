@@ -36,6 +36,9 @@ Ignicao
 - Motor.ligar()
 
 + desativar
+- estadoEmbreagem
+- nivelEmbreagem
+- Motor.desligar()
 
 Motor
 
@@ -63,11 +66,18 @@ Farol
 - luzRe
 
 Painel
+
++ acender
 - luzTemperatura
 - luzCombustivel
 - luzBateria
-Marcha
- 
+
++ apagar
+- luzTemperatura
+- luzCombustivel
+- luzBateria
+
+Marcha 
 + trocar
 - marchaAtual
 - marchaAlvo
@@ -105,10 +115,6 @@ Freio
 - rotacaoAlvo
 - nivelFreio
 - velocidadeAtual
-
-Direção
-
-- rotacao
 
 Para ligar o carro precisamos acionar a embreagem e ativar a ignição.
 Ignição não ativa se o nível da embreagem for menor que 100 e estado da embreagem igual a false
